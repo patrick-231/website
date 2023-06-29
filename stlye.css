@@ -71,6 +71,8 @@ body, h1, h2, h3, p, ul, li {
   }
   
   .car-card {
+   
+
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -151,3 +153,8 @@ body, h1, h2, h3, p, ul, li {
     background-color: #555;
   }
   
+  .img1
+  {float: right;
+    
+  }
+
