@@ -1,16 +1,16 @@
-/* Reset default margin and padding */
+
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
   }
   
-  /* Set global font and background */
+
   body {
     font-family: Arial, sans-serif;
     background-color: black;
   }
   
-  /* Header styles */
+  
   header {
     background-color: black;
     color: #fff;
@@ -20,6 +20,8 @@ body, h1, h2, h3, p, ul, li {
   nav ul {
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    align-content: center;
     
   }
   
@@ -34,12 +36,12 @@ body, h1, h2, h3, p, ul, li {
     
   }
   
-  /* Hero section styles */
+
   .hero {
     background-image: url("./images/hero7.avif");
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,8 +70,15 @@ body, h1, h2, h3, p, ul, li {
     text-decoration: none;
   }
   
-  /* Car listings section styles */
+  .car-listings h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px
+    
+  }
+
   .car-listings {
+    
     padding: 20px;
   }
   
@@ -92,13 +101,14 @@ body, h1, h2, h3, p, ul, li {
   .car-card h3 {
     font-size: 24px;
     margin-bottom: 10px;
+   
   }
   
   .car-card p {
     margin-bottom: 10px;
+    
   }
   
-  /* Footer styles */
   footer {
     background-color: #333;
     color: #fff;
@@ -106,7 +116,7 @@ body, h1, h2, h3, p, ul, li {
     padding: 10px;
   }
   
-  /* Form styles */
+ 
 .contact-section {
     padding: 20px;
     background-color: #f9f9f9;
@@ -160,4 +170,10 @@ body, h1, h2, h3, p, ul, li {
   {float: right;
     
   }
+
+  .contact.form {
+    color: white;
+  }
+
+  
 
